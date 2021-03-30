@@ -1,5 +1,2 @@
-/*
- * Public API Surface of my-awesome-lib
- */
-
- export * from './first-service';
+export * from './function-that-returns-a-basic-type';
+export * from './function-that-returns-a-custom-type';
