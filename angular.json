@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/my-awesome-lib/tsconfig.lib.json",
             "project": "projects/my-awesome-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/my-awesome-lib/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -37,6 +42,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-awesome-lib"
+    }
+  },
+  "defaultProject": "my-awesome-lib",
+  "cli": {
+    "analytics": false
+  }
 }
