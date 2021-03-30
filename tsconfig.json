@@ -25,10 +25,11 @@
       "my-awesome-lib/*": [
         "dist/my-awesome-lib/*"
       ]
-    }
+    },
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+    "enableIvy": false
   }
 }
