@@ -1,3 +1,6 @@
 {
-  "name": "my-awesome-lib"
+  "name": "my-awesome-lib",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
 }
